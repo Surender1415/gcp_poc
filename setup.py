@@ -3,6 +3,10 @@ Package Application files
 """
 from setuptools import setup, find_packages
 
+
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setup(
     name='gcp_poc',
     version="0.1",
@@ -12,5 +16,9 @@ setup(
     scripts=['src/main.py'],
     data_files={'config/app.ini'},
     python_requires='>=3.6',
+	install_requires=requirements,
+	url=https://github.com/Surender1415/gcp_poc.git
     zip_safe=False
 )
+
+
