@@ -1,0 +1,50 @@
+{
+  "schema": "schema version 1",
+  "data": 
+  [{
+  "activemode": 1,
+  "status": "ONE",  
+  "cars": [
+    { "name":"Ford", "model":"Fiesta", "value":100 },
+    { "name":"Tesla", "model":"Tesla Model 3", "value":1000 },
+    { "name":"Fiat", "model":"Pinto", "value":200 }
+  ]
+ },
+{
+  "activemode": 2,
+  "status": "TWO",  
+  "cars": [
+    { "name":"Ford2", "model":"Fiesta", "value":100 },
+    { "name":"Tesla2", "model":"Tesla Model 3", "value":1000 },
+    { "name":"Fiat2", "model":"Pinto", "value":200 }
+  ]
+ },
+ {
+  "activemode": 3,
+  "status": "THREE",  
+  "cars": [
+    { "name":"Ford3", "model":"Fiesta", "value":100 },
+    { "name":"Tesla3", "model":"Tesla Model 3", "value":1000 },
+    { "name":"Fiat3", "model":"Pinto", "value":200 }
+  ]
+ },
+{
+  "activemode": 4,
+  "status": "FOUR",  
+  "cars": [
+    { "name":"Ford4", "model":"Fiesta", "value":100 },
+    { "name":"Tesla4", "model":"Tesla Model 3", "value":1000 },
+    { "name":"Fiat4", "model":"Pinto", "value":200 }
+  ]
+ },
+{
+  "activemode": 5,
+  "status": "FIVE",  
+  "cars": [
+    { "name":"Ford5", "model":"Fiesta", "value":100 },
+    { "name":"Tesla5", "model":"Tesla Model 3", "value":1000 },
+    { "name":"Fiat5", "model":"Pinto", "value":200 }
+  ]
+ }],
+  "id":"123456"
+ }
